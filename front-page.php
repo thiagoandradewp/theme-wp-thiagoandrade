@@ -8,7 +8,7 @@ get_header();
         <div class="theme-home-me">
 
 
-        <h1>Eu sou, Thiago Andrade</h1>
+        <h1>Eu sou, Thiago Andrade TESTE DEPLOY</h1>
         <h2>Especialista WordPress e WooCommerce</h2>
         <p>Eu sou designer, profissional de marketing e criador.</p>
         <p>Trabalhei na indústria de tecnologia por quase uma década e tenho vários anos de experiência em trabalho remoto.</p>
