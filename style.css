@@ -1,0 +1,82 @@
+/*
+Theme Name: Thiago Andrade WP
+Author: Thiago Andrade
+Author URI: https://t2solucoes.com/
+Description: Tema Thiago Andrade
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+/**
+    1.variaveis
+    2.reset
+
+**/
+
+
+/** variaveis **/
+
+:root {
+    --color-main: #1268D0;
+    --color-white: #ffffff;
+    --color-black: #000000;
+}
+
+
+/** reset **/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+i {
+    font-size: 16px;
+}
+
+
+/* tipografia */
+
+h1 {
+    color: #1268D0;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.theme-header {
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: row;
+}
+
+.theme-principal-container {
+    background-color: green;
+}
+
+.theme-header-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theme-header-logo {
+    background-color: aqua;
+}
+
+.theme-header-menu {
+    background-color: black;
+}
+
+.theme-footer {
+    background-color: black;
+}
+
+.themer-copy {
+    background-color: rebeccapurple;
+}
