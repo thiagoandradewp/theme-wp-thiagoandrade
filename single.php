@@ -3,11 +3,12 @@
 <?php
 if (have_posts()) :
     while (have_posts()) : the_post(); ?>
-        // Conteúdo da postagem única aqui
+ 
         <h1><?php  the_title(); // Título da postagem ?></h1>
-        <h6><?php the_category()?> </h6>
+        <h4><?php the_category()?> </h4>
         
-        the_content(); // Conteúdo da postagem
+        <p><?php         the_content(); // Conteúdo da postagem?></p>
+
         <?php
     endwhile;
 else :
