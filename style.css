@@ -1094,4 +1094,6 @@ textarea {
 article {
     background-color: green;
     color: #111;
+    display: flex;
+    justify-content: center;
 }
