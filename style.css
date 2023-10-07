@@ -110,6 +110,7 @@ h1 {
     font-size: 2em;
     margin: 0.67em 0;
     color: blueviolet;
+    text-align: center;
 }
 
 
@@ -1083,4 +1084,14 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1.5em;
+}
+
+.page-header {
+    color: #fff;
+    background-color: #000;
+}
+
+article {
+    background-color: green;
+    color: #111;
 }
