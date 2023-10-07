@@ -17,13 +17,20 @@ get_header();
 			the_post();
 			?>
 
-			<article><?php get_template_part( 'template-parts/content', get_post_type() ); ?></article>
+			<article>
+				
+			<h1><?php the_title(); ?></h1>
+			<p>Por: <?php get_the_author_posts_link(  );?></p>
+			<span><?php the_category(); ?></span>
+			<span><?php the_post_thumbnail(); ?></span>
+			<p><?php the_content( ); ?></p>
+			</article>
 			
 			<?php
 			the_post_navigation(
 				array(
-					'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'thiagoandradewp' ) . '</span> <span class="nav-title">%title</span>',
-					'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'thiagoandradewp' ) . '</span> <span class="nav-title">%title</span>',
+					'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Anterior:', 'thiagoandradewp' ) . '</span> <span class="nav-title">%title</span>',
+					'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Próximo:', 'thiagoandradewp' ) . '</span> <span class="nav-title">%title</span>',
 				)
 			);
 
