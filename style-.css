@@ -89,8 +89,6 @@ html {
 
 body {
     margin: 0;
-    color: #999999;
-    color: #000;
 }
 
 
@@ -100,11 +98,6 @@ body {
 
 main {
     display: block;
-}
-
-.main-page {
-    display: flex;
-    flex-direction: column;
 }
 
 
@@ -143,7 +136,7 @@ hr {
  */
 
 pre {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: monospace, monospace;
     font-size: 1em;
 }
 
